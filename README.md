@@ -10,7 +10,7 @@ SmartParno is a device which allows you to control your central heating system (
 -
 
 ## Technical details
-SmartParno is a two-part project: a physical device and a mobile application. The device uses a NodeMCU ESP8266 to connect to the local network and communicate with the application via Wi-Fi. For physically turingn ON and OFF the _parno_,  we use a custom-made mechanism and a 3-6V DC motor with a gearbox for increased torque. The motor is controlled by the ESP via an L293D shield. Everything is powered by a 5V battery pack.
+SmartParno is a two-part project: a physical device and a mobile application. The device uses a NodeMCU ESP8266 to connect to the local network and communicate with the application via Wi-Fi. For physically turning ON and OFF the _parno_,  we use a custom-made mechanism and a 3-6V DC motor with a gearbox for increased torque. The motor is controlled by the ESP via an L293D shield. Everything is powered by a 5V battery pack.
 
 Links to datasheets:
 1) NodeMCU ESP8266 - https://components101.com/development-boards/nodemcu-esp8266-pinout-features-and-datasheet
@@ -28,5 +28,5 @@ The answer was obvious: Wi-Fi.
 Because Kris Vassikov had previous experience with Wi-Fi communication we knew exactly what to do. We bought a brand new NodeMCU ESP8266 and started experimenting with it. After a research we decided to use a program called Blynk to take care of the server-side. Later we decided to change this up, because it dind't fully fulfill our needs.
 
 #### But how do we power all of this???
-I. First we wanted to use a pwoer outlet  
+I. First we wanted to use a power outlet  
 II. Batteries
