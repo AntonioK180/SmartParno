@@ -19,14 +19,14 @@ Links to datasheets:
 ## Challenges
 
 #### Our first question was: How do we make a motor turn a _parno_ ON and OFF?
-I. After a few days of thinking we settled down on a custom 3D printed mechanism with a stepper motor attatched to one side and the _parno's_ valve on the other. After 3 generations of custom-made models we came to the conclusion, that this is unrealistic, because the valve is very robust and it is impossible to push it with some janky plastic pieces.
-II. Plan B was the so called linear actuator, which would for sure have enough power to push the valve. The problems with these things are that they are 1.Big and 2.Expensive. The ones available for sale in Bulgaria were some industrial actuators, used in trucks and other big machines. In China there were some smaller actuators, but the prices varied between $80 and $200 and on top of that, they would take a few weeks/months to get delivered to Bulgaria.
-III. We then started developing our own mechanism, very similiar to a real linear actuator, but with some changes in order to make it smaller. After 4 generations of custom-built mechanisms, we created the one, that you see in our DEMO video. It is far from perfect, but combined with a gearbox and a 3-6V DC motor it has the needed torque to fully push every _parno's_ valve!
+I. After a few days of thinking we settled down on a custom 3D printed mechanism with a stepper motor attatched to one side and the _parno's_ valve on the other. After 3 generations of custom-made models we came to the conclusion, that this is unrealistic, because the valve is very robust and it is impossible to push it with some janky plastic pieces.  
+II. Plan B was the so called linear actuator, which would for sure have enough power to push the valve. The problems with these things are that they are 1.Big and 2.Expensive. The ones available for sale in Bulgaria were some industrial actuators, used in trucks and other big machines. In China there were some smaller actuators, but the prices varied between $80 and $200 and on top of that, they would take a few weeks/months to get delivered to Bulgaria.  
+III. We then started developing our own mechanism, very similiar to a real linear actuator, but with some changes in order to make it smaller. After 4 generations of custom-built mechanisms, we created the one, that you see in our DEMO video. It is far from perfect, but combined with a gearbox and a 3-6V DC motor it has the needed torque to fully push every _parno's_ valve!  
 
 #### The second problem we had to solve was: How do we control this mechanism remotely?
 The answer was obvious: Wi-Fi.
 Because Kris Vassikov had previous experience with Wi-Fi communication we knew exactly what to do. We bought a brand new NodeMCU ESP8266 and started experimenting with it. After a research we decided to use a program called Blynk to take care of the server-side. Later we decided to change this up, because it dind't fully fulfill our needs.
 
 #### But how do we power all of this???
-I. First we wanted to use a pwoer outlet
+I. First we wanted to use a pwoer outlet  
 II. Batteries
