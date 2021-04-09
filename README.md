@@ -1,13 +1,13 @@
 # SmartParno
 ## Short Description (might get shorter)
 
-SmartParno is a device which allows you to control your central heating system (a.k.a. _parno_) from any point of the world. It uses Wi-Fi to communicate with the smartphone application. Our new innovative technology, using thermal sensors for feedback, allows you to set the _parno_ to an exact temperature. Then our algorithm will calculate how much exactly to open up the _parno's_ valve. We can safely say that this device does not only make your _parno_ remote controlled, but it makes it more precise too! 
+SmartParno is a device which allows you to control your central heating system (a.k.a. _parno_) from any point of the world. It uses Wi-Fi to communicate with your smartphone. Our new innovative technology, using thermal sensors for feedback, allows you to set the _parno_ to an exact temperature. Then our algorithm will calculate how much exactly to open up the _parno's_ valve. We can safely say that this device does not only make your _parno_ remote controlled, but it makes it more precise too! 
 
-## List all features:
--
--
--
--
+## All features:
+- Turn the _parno_ on the power scale, which we all know from 1 to 5
+- Set an exact temperature, which the _parno_ will maintain
+- Show the current temperature of the _parno_
+- Get notified when the device is low on battery (not yet implemented)
 
 ## Technical details
 SmartParno is a two-part project: a physical device and a mobile application. The device uses a NodeMCU ESP8266 to connect to the local network and communicate with the application via Wi-Fi. For physically turning ON and OFF the _parno_,  we use a custom-made mechanism and a 3-6V DC motor with a gearbox for increased torque. The motor is controlled by the ESP via an L293D shield. Everything is powered by a 5V battery pack.
@@ -28,5 +28,5 @@ The answer was obvious: Wi-Fi.
 Because Kris Vassikov had previous experience with Wi-Fi communication we knew exactly what to do. We bought a brand new NodeMCU ESP8266 and started experimenting with it. After a research we decided to use a program called Blynk to take care of the server-side. Later we decided to change this up, because it dind't fully fulfill our needs.
 
 #### But how do we power all of this???
-I. First we wanted to use a power outlet  
-II. Batteries
+I. First we wanted to use a power outlet, but decided that this is not a good choice, since it would require a power outlet to be close to the _parno_, which is very inconvenient.
+II. The other and more valid option was to use batteries. Right now SmartParno is powered by 4 3A Batteries, but we have not yet tested how much the battery life is.
