@@ -1,10 +1,12 @@
 # SmartParno
-## Short Description (might get shorter)
+## Short Description:
 
-SmartParno is a device which allows you to control your central heating system (a.k.a. _parno_) from any point of the world. It uses Wi-Fi to communicate with your smartphone. Our new innovative technology, using thermal sensors for feedback, allows you to set the _parno_ to an exact temperature. We can safely say that SmartParno does not only make your headting remote controlled, but it makes it more precise too!
+**EN:** SmartParno is a device which allows you to control your central heating system (a.k.a. _parno_) from any point of the world! It uses Wi-Fi to communicate with your smartphone. Our new innovative technology, uses thermal sensors for feedback and allows you to set the _parno_ to an exact temperature. We can safely say that SmartParno does not only make your heating remote controlled, but it makes it more precise too!  
+
+**BG:** SmartParno е устройство, което ви позволява да управялвате вашето парното от всяка точка на света! Използва Wi-Fi връзка, за да комуникира с вашия смартфон. Нашата иновативна технология използва термо сензори, чрез които можете да настроите парното си на точна температура. Смело можем да заявим, че SmartParno прави парното ви по-прецизно и по-лесно за използване.  
 
 ## All features:
-- Turn the _parno_ on the power scale, which we all know from 1 to 5
+- Turn the _parno_ on the power scale from 1 to 5
 - Set an exact temperature, which the _parno_ will maintain
 - Show the current temperature of the _parno_
 - Get notified when the device is low on battery (not yet implemented)
@@ -16,9 +18,10 @@ Links to datasheets:
 1) NodeMCU ESP8266 - https://components101.com/development-boards/nodemcu-esp8266-pinout-features-and-datasheet
 2) L932D motor shield - https://www.ti.com/lit/ds/symlink/l293.pdf
 
-<img src="Gallery/Hardware/ESP8266+L293d.jpg"
-     alt="NodeMCU ESP8266 + L293D on a breadbord"
-     style="float: left; margin-right: 10px;" />
+![NodeMCU ESP8266 + L293D on a breadbord](Gallery/Hardware/ESP8266+L293d.jpg)  
+This is the most compact version on the breadboard. Everything gets powered by 4 3A batteries, which connect on the power rail that is closer to you.  
+![3rd gen prototype](Gallery/Prototypes/3rd_gen_prototype.jpg)  
+This is the 3rd generation prototype.
 
 ## Challenges
 
