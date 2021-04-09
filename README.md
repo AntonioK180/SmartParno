@@ -1,7 +1,7 @@
 # SmartParno
 ## Short Description (might get shorter)
 
-SmartParno is a device which allows you to control your central heating system (a.k.a. _parno_) from any point of the world. It uses Wi-Fi to communicate with your smartphone. Our new innovative technology, using thermal sensors for feedback, allows you to set the _parno_ to an exact temperature. Then our algorithm will calculate how much exactly to open up the _parno's_ valve. We can safely say that this device does not only make your _parno_ remote controlled, but it makes it more precise too! 
+SmartParno is a device which allows you to control your central heating system (a.k.a. _parno_) from any point of the world. It uses Wi-Fi to communicate with your smartphone. Our new innovative technology, using thermal sensors for feedback, allows you to set the _parno_ to an exact temperature. We can safely say that SmartParno does not only make your headting remote controlled, but it makes it more precise too!
 
 ## All features:
 - Turn the _parno_ on the power scale, which we all know from 1 to 5
@@ -15,6 +15,10 @@ SmartParno is a two-part project: a physical device and a mobile application. Th
 Links to datasheets:
 1) NodeMCU ESP8266 - https://components101.com/development-boards/nodemcu-esp8266-pinout-features-and-datasheet
 2) L932D motor shield - https://www.ti.com/lit/ds/symlink/l293.pdf
+
+<img src="Gallery/Hardware/ESP8266+L293d.jpg"
+     alt="NodeMCU ESP8266 + L293D on a breadbord"
+     style="float: left; margin-right: 10px;" />
 
 ## Challenges
 
