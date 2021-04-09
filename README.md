@@ -3,7 +3,7 @@
 
 **EN:** SmartParno is a device which allows you to control your central heating system (a.k.a. _parno_) from any point of the world! It uses Wi-Fi to communicate with your smartphone. Our new innovative technology, uses thermal sensors for feedback and allows you to set the _parno_ to an exact temperature. We can safely say that SmartParno does not only make your heating remote controlled, but it makes it more precise too!  
 
-**BG:** SmartParno е устройство, което ви позволява да управялвате вашето парното от всяка точка на света! Използва Wi-Fi връзка, за да комуникира с вашия смартфон. Нашата иновативна технология използва термо сензори, чрез които можете да настроите парното си на точна температура. Смело можем да заявим, че SmartParno прави парното ви по-прецизно и по-лесно за използване.  
+**BG:** SmartParno е устройство, което ви позволява да управялвате вашето парното от всяка точка на света! Използва Wi-Fi връзка, за да комуникира с вашия смартфон. Нашата иновативна технология използва термо сензори, чрез които можете да настроите парното си на точна температура. Смело можем да заявим, че SmartParno прави парното ви по-прецизно и по-лесно за използване и то от всяка точка на земята!  
 
 ## All features:
 - Turn the _parno_ on the power scale from 1 to 5
