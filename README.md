@@ -18,10 +18,18 @@ Links to datasheets:
 1) NodeMCU ESP8266 - https://components101.com/development-boards/nodemcu-esp8266-pinout-features-and-datasheet
 2) L932D motor shield - https://www.ti.com/lit/ds/symlink/l293.pdf
 
+![4th gen prototype](Gallery/Prototypes/4th_gen_connected.jpg)  
+This is the 4th generation prototype and how it looks like, when connected to the _parno_.  
+
+![4th gen prototype](Gallery/Prototypes/4th_gen_front_view.jpg)  
+ALl of these electronics will be made into a custom made board, which will be 5 times smaller.  
+
+![4th gen prototype](Gallery/Prototypes/4th_gen_side_view.jpg)  
+We are also going to order a set of baterries, which will exactly satisfy our needs, and will also be much much smaller.
+
 ![NodeMCU ESP8266 + L293D on a breadbord](Gallery/Hardware/ESP8266+L293d.jpg)  
 This is the most compact version on the breadboard. Everything gets powered by 4 3A batteries, which connect on the power rail that is closer to you.  
-![3rd gen prototype](Gallery/Prototypes/3rd_gen_prototype.jpg)  
-This is the 3rd generation prototype.
+
 
 ## Challenges
 
